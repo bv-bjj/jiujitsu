@@ -1,0 +1,148 @@
+
+.mapa-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.info-mapa {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.info-mapa h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.info-mapa h2 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
+
+.l10 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.l2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.l10 img {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+
+.l2 img {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+
+.metro {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.llegar {
+    font-weight: bold;
+    margin-top: ;
+    font-size: 25px;
+}
+
+.metro {
+    margin: 15px;
+    text-align: center;
+
+}
+
+.linea {
+    border: 1px solid red;
+    width: 50px;
+    margin-top: 5rem;
+}
+
+
+@media screen and (max-width: 400px) {
+    .mapa-info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .mapa-google iframe{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .info-mapa {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .info-mapa h3 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .info-mapa h2 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+
+    .l10 img {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+    }
+
+    .l2 img {
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+    }
+
+    .metro {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        flex-direction: column;
+        
+    }
+
+    .llegar {
+        font-weight: bold;
+    }
+
+    .metro {
+        margin-right: 15px;
+        margin-left: 15px;
+        text-align: center;
+    }
+
+    .linea {
+        border: 1px solid red;
+        width: 50px;
+        margin-top: 2rem;
+    }
+}
+    

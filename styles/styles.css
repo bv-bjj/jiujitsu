@@ -1,0 +1,37 @@
+@import url("./header.css");
+@import url("./reset.css");
+@import url("./slider.css");
+@import url("./horario.css");
+@import url("./alert.css");
+@import url("./testimonios.css");
+@import url("./responsive.css");
+@import url("./stylesforhover.css");
+@import url("./footer.css");
+@import url("./main.css");
+
+
+* {
+    font-family:  'Lora', serif;
+    outline: none;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+  
+ 
+  
+

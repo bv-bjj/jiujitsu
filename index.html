@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+      <!-- ... -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  </head>
+  <body>
+    <!-- navbar -->
+
+    <header>
+      <!-- <div class="navegador">
+        <div class="logo">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+        <nav class="menu-logo">
+          <ul>
+            <li>
+              <a class="link link--io" href="./Escuela.html">LA ESCUELA</a>
+            </li>
+            <li>
+              <a class="link link--io" href="#horarios">HORARIOS Y TARIFA</a>
+            </li>
+            <li>
+              <a class="link link--io" href="#nuestrosprogramas"
+                >NUESTROS PROGRAMAS</a
+              >
+            </li>
+            <li><a class="link link--io">EL JIU JITSU </a></li>
+            <li><a class="link link--io" href="#Contacto">CONTACTO</a></li>
+          </ul>
+        </nav>
+        
+      </div> -->
+      <div class="topnav" id="myTopnav">
+       
+        <a href="#home" class="active" > <img id="foto"src="./img/logo.png" alt=""></a>
+        <a class="tit"href="#news">La academia</a>
+        <a class="tit"href="#news">Horarios y tarifa</a>
+        <a class="tit"href="#contact">Nuestros programas</a>
+        <a class="tit" href="#about">Jiu Jitsu</a>
+        <a class="tit"href="#about">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i id="fa" class="fa fa-bars fa-3x" style="margin-top: 15px; margin-right: 10px;" ></i>
+        </a>
+      </div>
+      
+      </header>
+
+    <main>
+      <div class="container-inicial">
+        <div class="sub-container-inicial">
+          <div class="titulo">
+            <h1>Badalona <br> Jiu Jitsu</h1>
+            <h2>
+              Academia especializada en Brazilian Jiujitsu. Ambiente
+              familiar con instalaciones perfectas para el entrenamiento del
+              Jiujitsu.
+            </h2>
+          </div>
+          <div class="alert">
+            <span
+              class="closebtn"
+              onclick="this.parentElement.style.display='none';"
+              >&times;</span
+            >
+            <p>¿Quieres probar una clase con nosotros?</p>
+            <p>Escribe en el siguiente formulario</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider -->
+
+      <section class="sliderPrincipal">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <img class="img-myslide" src="./img/1.png" style="width: 100%" />
+            <div class="text"></div>
+          </div>
+
+          <div class="mySlides fade">
+            <img class="img-myslide" src="./img/2.png" style="width: 100%" />
+            <div class="text"></div>
+          </div>
+
+          <div class="mySlides fade">
+            <img class="img-myslide" src="./img/3.png" style="width: 100%" />
+            <div class="text"></div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br />
+
+        <!-- The dots/circles -->
+        <div style="text-align: center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <!-- <span class="dot" onclick="currentSlide(4)"></span> -->
+        </div>
+      </section>
+
+      <!-- Testimonios -->
+
+      <h3 class="titulo-alumnos">Testimonios</h3>
+      <div class="testimonios2">
+        <div class="testimonios">
+          <div class="testimonio">
+            <div class="testimonio-foto">
+              <img src="./img/logo.png" alt="" />
+            </div>
+            <div class="testimonio-texto">
+              <h3>Martin Madridejos</h3>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Similique praesentium accusamus id temporibus at dignissimos
+                saepe, sint omnis corrupti veritatis consequuntur quam
+                doloremque est repellat error impedit perferendis amet!
+                Consequuntur!"
+              </p>
+            </div>
+          </div>
+          <div class="testimonio">
+            <div class="testimonio-foto">
+              <img src="./img/logo.png" alt="" />
+            </div>
+            <div class="testimonio-texto">
+              <h3>Martin Madridejos</h3>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Similique praesentium accusamus id temporibus at dignissimos
+                saepe, sint omnis corrupti veritatis consequuntur quam
+                doloremque est repellat error impedit perferendis amet!
+                Consequuntur!"
+              </p>
+            </div>
+          </div>
+          <div class="testimonio">
+            <div class="testimonio-foto">
+              <img src="./img/logo.png" alt="" />
+            </div>
+            <div class="testimonio-texto">
+              <h3>Martin Madridejos</h3>
+              <p>
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Similique praesentium accusamus id temporibus at dignissimos
+                saepe, sint omnis corrupti veritatis consequuntur quam
+                doloremque est repellat error impedit perferendis amet!
+                Consequuntur!"
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+           
+
+        <!-- Mapa -->
+        <div class="mapa-info">
+          <div class="mapa-google">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5811.3746047965!2d2.2217941891720483!3d41.442901145918015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2488965bd3046819!2sAcademia%20Badalona%20Jiujitsu!5e0!3m2!1ses!2ses!4v1621496120032!5m2!1ses!2ses"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+          <div class="info-mapa">
+            <h2>Horarios</h2>
+            <p>Lunes: 10:00-12:00 y 18:00-21:30</p>
+            <p>Martes: 10:00-12:00 y 18:00-20.30</p>
+            <p>Miércoles: 10:00-12:00 y 18:00-21:30</p>
+            <p>Jueves: 10:00-12:00 y 18:00-20:30</p>
+            <p>Viernes: 10:30-12:00 y 18:00-21:30</p>
+            <p>Sábado: 10:00-13:00</p>
+            <h3 class="llegar">¿Cómo llegar?</h3>
+            <p class="direccion">
+              Carrer de Juan Valera, 178,
+            </p>
+            <p>08914, Badalona, Barcelona</p>
+            <div class="metro">
+              <div class="l10">
+                
+                <img src="img\logo-metro.png" alt="" />
+                <img src="img\laSalut.png" alt="" />
+                <p>La salut</p>
+              </div>
+              <div class="l2">
+                
+                <img src="img\logo-metro.png" alt="" />
+                <img src="img\l2.png" alt="" />
+                <p>Gorg</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <footer>
+        <div class="footer1">
+        <div class="footer-container">
+          <div class="logo-footer">
+            <img src="img\logo.png" alt="" />
+          </div>
+          <div class="texto-footer">
+            <p>685418117 - martindejos@gmail.com</p>
+            <p>
+              Carrer de Juan Valera, 178, 08914, Badalona,
+              Barcelona
+            </p>
+          </div>
+          <div class="redes-sociales-footer">
+            <li>
+              <a href="#facebook"
+                ><img src="./img/facebook.svg" alt="facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="#instagram"
+                ><img src="./img/instagram.svg" alt="instagram"
+              /></a>
+            </li>
+          </div>
+        </div>
+        
+        <hr class="linea2" />
+        <div class="last-footer">
+          <p>By Barrioviajero</p>
+          <p>2021</p>
+          <p>All rights preserved</p>
+        </div>
+      </div>
+      </footer>
+    </main>
+
+    <!-- <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm0-Bf_NHEm1u3H8237Bil0hyIr28zDwI&callback=initMap"
+    ></script> -->
+    <script src="js/slider.js"></script>
+    <script src="js/alert.js"></script>
+    <script src="js/mapgoogle.js"></script>
+  </body>
+</html>
