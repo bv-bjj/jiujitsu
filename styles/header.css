@@ -267,12 +267,9 @@ header {
 
 /* Responsive */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     
-    main {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+   
 
     .navegador {
         display: flex;
