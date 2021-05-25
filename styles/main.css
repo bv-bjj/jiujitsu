@@ -1,20 +1,34 @@
 
-.mapa-info {
+.info-mapa-horarios {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    margin-top: 30px;
+    margin-top: 4rem;
 }
 
-.info-mapa {
+.info {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
-    line-height: 25px;
-    text-align: center;
+    flex-direction: column;
+}
+
+
+.localizacion {
+    display: flex;
+    flex-direction: column;
+   
+    margin-top: 25px;
     
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.info1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 
@@ -76,17 +90,74 @@
     margin-top: 5rem;
 }
 
+.nuestros-programas {
+    
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
-@media screen and (max-width: 500px) {
-    .mapa-info {
+
+.nuestros-programas h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.programas {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.programa {
+margin-top: 15px;
+}
+
+.programa img {
+    width: 90%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.programa img:hover {
+    filter: opacity(.5);
+    
+    -webkit-transform:scale(1.01);transform:scale(1.01);
+    transition: 0.4s;
+    
+}
+
+.programa h3 {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.horarios {
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.horarios h2 {
+    margin-bottom: 2rem;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.horarios li {
+    line-height: 35px;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .info-mapa-horarios {
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
-        margin-right: 15px;
-        margin-left: 15px;
     }
 
-    .mapa-google iframe{
+    .mapa iframe{
         width: 100%;
         margin-top: 0;
         margin-bottom: 15px;
@@ -98,16 +169,10 @@
 
     .horarios p {
         font-size: 18px;
-        line-height: 30px;
+        line-height: 50px;
     }
     
 
-    .info-mapa {
-        text-align: center;
-        margin-top: 0rem;
-        display: flex;
-        flex-direction: column;
-    }
 
     .info-mapa h3 {
         margin-top: 2rem;
@@ -118,7 +183,13 @@
         margin-bottom: 1rem;
     }
 
-    
+    .l10 {
+        margin-left: 50px;
+    }
+
+    .l2 {
+        margin-left: 50px;
+    }
     
     .l10 img {
         width: 35px;
@@ -137,6 +208,7 @@
         align-items: flex-start;
         justify-content: space-around;
         flex-direction: column;
+        
         
     }
 
@@ -162,38 +234,18 @@
         line-height: 30px;
 }
     
-
-
-.nuestros-programas {
-    text-align: center;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+.programas {
+    display: flex;
+    flex-direction: column;
 }
 
-.nuestros-programas h2 {
-    font-size: 25px;
-    font-weight: 700;
+    .programa h3 {
+        font-size: 18px;
+    }
+
+    .programa img {
+        margin-bottom: 15px;
+    }
 }
 
-.programa {
-margin-top: 15px;
-}
 
-.programa img {
-    width:80%;
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-.programa img:hover {
-    filter: opacity(.5);
-    
-    -webkit-transform:scale(1.1);transform:scale(1.1);
-    transition: 0.4s;
-    
-}
-
-.programa h3 {
-    font-weight: bold;
-}
