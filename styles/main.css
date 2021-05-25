@@ -94,8 +94,9 @@
     
     text-align: center;
     margin-top: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+    background: rgba(128, 128, 128, 0.322);
+    padding: 30px;
+    width: 100%;
 }
 
 
@@ -148,6 +149,58 @@ margin-top: 15px;
 .horarios li {
     line-height: 35px;
     font-size: 18px;
+}
+
+
+.aprende-jiujitsu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(128, 128, 128, 0.322);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.logo3 {
+    width: 150px;
+}
+
+.marketing {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+
+.social-media {
+    margin-top: 30px;
+}
+.social-media img {
+    width: 50px;
+    margin-top: 15px;
+    padding-right: 10px;
+}
+
+.social-media h3 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.informacion h3 {
+    font-size: 30px;
 }
 
 
@@ -246,6 +299,30 @@ margin-top: 15px;
     .programa img {
         margin-bottom: 15px;
     }
+
+    .aprende-jiujitsu {
+        display: flex;
+        flex-direction: column;
+        
+}
+.marketing {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
 }
 
+.informacion {
+font-size: 18px;
+}
 
+.social-media {
+    align-items: center;
+}
+
+.social-media img{
+    align-items: center;
+    justify-content: space-around;
+}
+}
