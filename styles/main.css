@@ -94,8 +94,9 @@
     
     text-align: center;
     margin-top: 40px;
-    background: rgba(128, 128, 128, 0.322);
-    padding: 30px;
+    background: rgba(128, 128, 128, 0.158);
+   padding-top: 20px;
+   padding-bottom: 20px;
     width: 100%;
 }
 
@@ -107,6 +108,7 @@
 .programas {
     display: flex;
     flex-direction: row;
+    padding: 15px;
 }
 
 
@@ -115,9 +117,9 @@ margin-top: 15px;
 }
 
 .programa img {
-    width: 90%;
-    margin-right: 20px;
-    margin-top: 20px;
+    width: 100%;
+    
+    
     margin-bottom: 20px;
 }
 
@@ -157,9 +159,10 @@ margin-top: 15px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background: rgba(128, 128, 128, 0.322);
+    background: rgba(128, 128, 128, 0.158);
     padding: 20px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .logo3 {
