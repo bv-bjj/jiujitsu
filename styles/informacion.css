@@ -1,6 +1,6 @@
 .horarios {
   text-align: center;
-  margin-top: 2rem;
+  margin: 20px;
 }
 
 .horarios h2 {
@@ -11,7 +11,7 @@
 
 .horarios li {
   line-height: 35px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .aprende-jiujitsu {
@@ -54,7 +54,8 @@
 }
 
 .social-media h3 {
-  font-size: 23px;
+  font-size: 20px;
+  line-height: 23px;
   font-weight: 600;
   text-shadow: 6px 0px 6px rgb(247, 247, 247);
 }
@@ -66,7 +67,7 @@
   justify-content: space-around;
   line-height: 30px;
   font-size: 20px;
-  font-weight: 600;
+  
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -75,14 +76,16 @@
   font-size: 25px;
   text-align: center;
   line-height: 35px;
+  font-weight: 600;
 }
 
 .informacion li {
   list-style-type: disc;
   margin-top: 10px;
+  font-size: 18px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1060px) {
   
 
   .horarios {

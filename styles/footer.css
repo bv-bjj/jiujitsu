@@ -8,7 +8,7 @@
 
 .footer-container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     width: 100%;
           
@@ -20,10 +20,14 @@
     border-radius: 6px;
 }
 
+.redes-sociales-footer {
+    margin-top: 20px;
+}
+
 .redes-sociales-footer li {
     display: inline;
     
-    margin: 10px;
+   
 }
 
 .redes-sociales-footer img {
@@ -41,6 +45,16 @@
 .texto-footer {
     margin: 20px;
     line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.texto-footer h2 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .last-footer {
@@ -48,13 +62,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 32px;
 }
 
 .last-footer p {
     line-height: 20px;
     font-size: 13px;
     margin-bottom: 10px;
+    text-align: center;
     }
 
 .linea2 {
@@ -64,7 +79,7 @@
     margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1060px) {
     .footer-container {
         display: flex;
         flex-direction: column;
@@ -79,6 +94,7 @@
     .texto-footer {
         margin: 15px;
         line-height: 30px;
+        text-align: center;
     }
            
 
