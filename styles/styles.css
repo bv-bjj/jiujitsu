@@ -1,13 +1,12 @@
 @import url("./header.css");
 @import url("./reset.css");
-@import url("./slider.css");
+
 @import url("./horario.css");
-@import url("./alert.css");
+@import url("./programas.css");
 @import url("./testimonios.css");
-@import url("./responsive.css");
-@import url("./stylesforhover.css");
+@import url("./info-mapa.css");
 @import url("./footer.css");
-@import url("./main.css");
+@import url("./informacion.css");
 
 
 * {
@@ -24,15 +23,6 @@ a:active {
 }
 
 
-
-#map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-  }
-
- 
 
   
 
