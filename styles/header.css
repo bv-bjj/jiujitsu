@@ -125,7 +125,7 @@ header {
 
 .tit {
   margin-top: 25px;
-  margin-right: 30px;
+  margin-right: 20px;
   font-weight: 800;
 }
 
@@ -156,10 +156,9 @@ header {
 }
 
 #foto {
-  width: 70px;
-  border-radius: 3px;
+  width: 150px;
   margin-right: 80px;
-  margin-left: 80px;
+  margin-left: 20px;
 }
 
 .topnav .icon {
@@ -220,8 +219,8 @@ header {
   }
 
   #foto {
-    width: 70px;
-    border-radius: 3px;
+    width: 150px;
+    
     margin-left: 0;
   }
 

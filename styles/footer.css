@@ -2,7 +2,8 @@
     background-color: black;
     color: white;
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 1rem;
+    padding-top: 30px;
   
 }
 
@@ -15,9 +16,9 @@
 }
 
 .logo-footer img{
-    width: 80px;
-    margin: 10px;
-    border-radius: 6px;
+    width: 200px;
+    border: solid 1px  black;
+    
 }
 
 .redes-sociales-footer {
@@ -78,6 +79,22 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+.horarios {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .horarios h2 {
+    margin-bottom: 2rem;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .horarios li {
+    line-height: 35px;
+    font-size: 16px;
+  }
 
 @media screen and (max-width: 1060px) {
     .footer-container {

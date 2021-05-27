@@ -10,7 +10,7 @@
   .nuestros-programas h2 {
     font-size: 25px;
     font-weight: 700;
-    padding: 15px;
+    padding-top: 15px;
   }
   .programas {
     display: flex;
@@ -22,6 +22,8 @@
   .programa {
     margin-top: 15px;
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
   }
   
   .programa img {
@@ -42,7 +44,7 @@
   }
 
   .hover-img {
-    background-color: #000;
+    background-color: transparent;
     color: #fff;
     display: inline-block;
     margin: 8px;
@@ -50,13 +52,12 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    width: 100%;
-    margin-bottom: 15px;
+        
   }
   
   .hover-img * {
     box-sizing: border-box;
-    transition: all 0.45s ease;
+    transition: all 0.6s ease;
   }
   
   .hover-img:before,
@@ -79,7 +80,9 @@
   .hover-img img {
     vertical-align: top;
     max-width: 100%;
+    max-height: 100%;
     backface-visibility: hidden;
+    
   }
   
   .hover-img figcaption {
@@ -97,11 +100,12 @@
     opacity: 0;
     z-index: 2;
     transition-delay: 0.1s;
-    font-size: 24px;
+    font-size: 28px;
     font-family: sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     text-transform: uppercase;
+    
   }
   
   .hover-img:hover:before,
@@ -119,6 +123,10 @@
   .hover-img:hover figcaption {
     opacity: 1;
   }
+
+  .titulo-programa {
+    font-size: 20px;
+  }
   
 /* Responsive */
 
@@ -126,20 +134,24 @@
     .programas {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      .programa {
+        margin: 0;
+        display: flex;
+        align-items: center;
       }
     
       .programa h3 {
         font-size: 18px;
       }
     
-      .programa img {
-        margin-bottom: 15px;
-        margin-top: 15px;
-        width: 50%;
-      }
-
       .hover-img {
         width: 80%;
+        margin-bottom: 20px;
+        margin-top: 20px;
       }
 
       .hover-img figcaption{
