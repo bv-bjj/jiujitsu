@@ -2,8 +2,7 @@
     background-color: black;
     color: white;
     width: 100%;
-    margin-top: 1rem;
-    padding-top: 30px;
+   padding-top: 30px;
   
 }
 
@@ -33,6 +32,7 @@
 
 .redes-sociales-footer img {
     width: 2rem;
+    padding: 1rem;
 }
 
 .redes-sociales img:hover {
@@ -64,6 +64,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 32px;
+   padding-bottom: 20px;
 }
 
 .last-footer p {
