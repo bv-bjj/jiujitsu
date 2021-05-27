@@ -72,6 +72,10 @@
   font-size: 18px;
 }
 
+.informacion ul {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 1060px) {
   
 
