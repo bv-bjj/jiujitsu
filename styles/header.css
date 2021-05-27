@@ -63,7 +63,7 @@ header {
       rgba(207, 193, 193, 0.37),
       rgba(207, 193, 193, 0.37)
     ),
-    url("/./img/1.png");
+    url("/img/1.png");
   background-size: cover;
   background-position: center;
 }
