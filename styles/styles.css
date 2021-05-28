@@ -1,10 +1,10 @@
 @import url("./header.css");
 @import url("./reset.css");
-@import url("./container-programas.css");
-@import url("./container-testimonios.css");
-@import url("./container-infomapa.css");
+@import url("./main/container-programas.css");
+@import url("./main/container-testimonios.css");
+@import url("./main/container-infomapa.css");
 @import url("./footer.css");
-@import url("./container-informacion.css");
+@import url("./main/container-informacion.css");
 
 
 * {
