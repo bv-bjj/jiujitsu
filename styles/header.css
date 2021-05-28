@@ -138,7 +138,9 @@ header {
   text-decoration: none;
   font-size: 17px;
   align-items: center;
-  font-family: "Lora", serif;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
+  
 }
 
 .topnav a:hover {
@@ -192,7 +194,8 @@ header {
     display: block;
     text-align: left;
     margin: 0;
-    font-family: "Lora", serif;
+    font-family: 'Bebas Neue', cursive;
+  letter-spacing: 3px;
   }
 
   .sub-container-inicial {
